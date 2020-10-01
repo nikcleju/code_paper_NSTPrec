@@ -1,0 +1,9 @@
+*.mat
+*.pickle
+*.pyc
+*.npz
+
+/save/**/*.*
+!save/**/*.png
+!save/**/*.txt
+!save/**/*.pdf

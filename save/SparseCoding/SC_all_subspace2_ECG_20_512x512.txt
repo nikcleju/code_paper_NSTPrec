@@ -1,0 +1,38 @@
+Date and time: 2020-09-28 20:47:09.685090
+Description of phase transition object:
+<pyCSalgos.phase_transition.SynthesisSparseCoding object at 0x7f4210a7c898>
+Class type: SynthesisSparseCoding
+-------------------
+Signal dimension = 512
+Dictionary/Operator size = 512
+Number of signals for each data point = 100
+Delta = [1.0]
+Rho   = [0.02 0.04 0.06 0.08 0.1  0.12 0.14 0.16 0.18 0.2  0.22 0.24 0.26 0.28]
+SNR_Sparse = inf dB
+SNR_Signal = 20 dB
+SNR_Meas = 20 dB
+Solvers = [IterativeHardThresholding(debias='real', deltatol=1e-16, maxiter=1000, mu=0,
+             sparsity='real', stoptol=1e-07), IterativeHardThresholding(debias='real', deltatol=1e-16, maxiter=1000, mu=1,
+             sparsity='real', stoptol=1e-07), OrthogonalMatchingPursuit(algorithm='sparsify_QR', stopval=1e-07), ApproximateMessagePassing(debias=True, maxiter=1000, stoptol=1e-07), NST_HT_FB ([0.01, 0.01, 1000],sparse), NST_HT_FB ([0.01, 0.01, 1000],sparse), NST_HT_FB ([0.01, 0.01, 1000],sparse), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=IterativeHardThresholding(debias='real', deltatol=1e-16, maxiter=1000, mu=0,
+             sparsity='real', stoptol=1e-07)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=IterativeHardThresholding(debias='real', deltatol=1e-16, maxiter=1000, mu=1,
+             sparsity='real', stoptol=1e-07)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=OrthogonalMatchingPursuit(algorithm='sparsify_QR', stopval=1e-07)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=ApproximateMessagePassing(debias=True, maxiter=1000, stoptol=1e-07)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=NST_HT_FB ([0.01, 0.01, 1000],sparse)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=NST_HT_FB ([0.01, 0.01, 1000],sparse)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=NST_HT_FB ([0.01, 0.01, 1000],sparse))]
+Solvers with Exact Recovery Condition (ERC) = [OrthogonalMatchingPursuit(algorithm='sparsify_QR', stopval=1e-07), NST_HT_FB ([0.01, 0.01, 1000],sparse), NST_HT_FB ([0.01, 0.01, 1000],sparse), NST_HT_FB ([0.01, 0.01, 1000],sparse), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=IterativeHardThresholding(debias='real', deltatol=1e-16, maxiter=1000, mu=0,
+             sparsity='real', stoptol=1e-07)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=IterativeHardThresholding(debias='real', deltatol=1e-16, maxiter=1000, mu=1,
+             sparsity='real', stoptol=1e-07)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=OrthogonalMatchingPursuit(algorithm='sparsify_QR', stopval=1e-07)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=ApproximateMessagePassing(debias=True, maxiter=1000, stoptol=1e-07)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=NST_HT_FB ([0.01, 0.01, 1000],sparse)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=NST_HT_FB ([0.01, 0.01, 1000],sparse)), Preconditioner(rcond=0.01, rinv=0.01,
+        solver=NST_HT_FB ([0.01, 0.01, 1000],sparse))]
+Error matrix = shape (14, 1, 14, 100)
+ERC success matrix = None
+Gamma matrix = shape (14, 1, 14, 512, 100)
